@@ -62,7 +62,7 @@ Memoria USB: Es una memoria portable de almacenamiento permanente, no tienen dem
 
 Memoria ROM: Es una memoria no volátil que se encuentra en la placa madre de los computadores, esta le da las primeras instrucciones al microprocesador cuando la maquina se enciende.
 
-DRAM: Es un tipo de memoria volátil, es decir que cuando se le corta la corriente eléctrica los datos en ella desaparecen. Se le llama Dynamic RAM porque cada cierto tiempo necesita un ciclo de refresco de datos para que estos permanezcan, incluso cuando la maquina se encuentra encendida.\cite{uruguayoc}
+DRAM: Es un tipo de memoria volátil, es decir que cuando se le corta la corriente eléctrica los datos en ella desaparecen. Se le llama Dynamic RAM porque cada cierto tiempo necesita un ciclo de refresco de datos para que estos permanezcan.
 
 Las memorias también se pueden dividir en dos tipos, memorias volátiles que no almacenan la información de manera permanente y las no volátiles que por el contrario sí lo hacen. Algunos ejemplos se muestran el la figura 1. (\ref{fig:Volatilidad})
 
@@ -81,8 +81,11 @@ Cuando nuestras computadoras se encienden lo primero que hace el procesador es e
 
 4.¿Qué hace que una memoria sea más rápida que otra?¿Por qué es tan importante?
 
+La velocidad de una memoria puede depender de la manera en que lee los datos, ya sea con un patrón secuencial o con un patrón aleatorio. Por ejemplo, un disco duro SSD SATA lll con patrones aleatorios da acceso a los datos más rápido que un disco duro de 5400 rpm que tiene un patrón secuencial.
+Otro factor que hace que una memoria sea más rápida que otra es la latencia, es decir el tiempo que se espera para recibir el primer dato desde una memoria. En los discos duros, el tiempo de la latencia es del orden de los milisegundos y en las memorias RAM, es del orden de los nanosegundos.
+Por otro lado, se puede tener en cuenta la cantidad de almacenamiento que tiene una memoria, pues usualmente cuando un dispositivo tiene más capacidad de almacenamiento, tiene menor velocidad. Cuando una memoria es no volátil suele tener más espacio para almacenar, esta guarda los datos permanentemente, por otro lado, una memoria que es volátil solo almacena la información mientras tenga corriente y tiene un menor espacio de almacenamiento. Las memorias volátiles, como la memoria RAM por ejemplo, suelen usarse para almacenar temporalmente datos que son necesarios mientras se ejecuta alguna instrucción en nuestro computador, estas suelen ser más rápidas que una memoria no volátil, como el disco duro, que guarda de manera permanente los archivos que no son requeridos en el momento.
+La importancia de una memoria más rápida es la eficiencia y la fluidez con la que funcionan nuestras computadoras y las tareas que se llevan a cabo en estas. Además, ciertos dispositivos funcionan con ayuda de la memoria en nuestros computadores como los procesadores o  los controladores de la placa madre, un procesador que trabaja a una gran velocidad requiere de un soporte como la memoria RAM que pueda seguirle el ritmo.\cite{Alelua}
 
-Una memoria se hace más rápida cuando tiene menos capacidad de almacenamiento, es decir que guarda menos información. Esto se hace importante para que nuestras computadoras funcionen más rápido, con una mayor eficiencia y con mayor fluidez. Se requiere que el microprocesador tenga un acceso rápido a los datos que necesita para ejecutar los programas. Por lo antes dicho es necesario emplear dispositivos como la memoria RAM que tiene una capacidad de almacenamiento menor que el Disco Duro, pero que puede guardar temporalmente los datos que el procesador requiere mientras utilizamos nuestro computador. También se utilizan por ejemplo las memorias Cache que se encuentran en el mismo procesador y funcionan para almacenar los datos más recurrentes en el uso diario que le da el usuario a la máquina. Todo este trabajo en equipo facilita las tareas que debe hacer el procesador y permite que se pueda hacer un trabajo más rápido. 
 
 En la figura número dos se muestra la jerarquía desde la memoria con mayor velocidad a la que tiene menor velocidad y desde la que tiene menor almacenamiento a la que mayor almacenamiento tiene. (\ref{fig:jerarquia})
 
